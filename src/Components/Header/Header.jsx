@@ -2,7 +2,7 @@
 
 const Header = () => {
     return (
-<div className="navbar mx-[200px]">
+<div className="navbar">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
