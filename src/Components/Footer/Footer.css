@@ -1,0 +1,18 @@
+.instagram-icon {
+    position: relative; /* Ensure the container is positioned */
+    background: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Set text color to transparent */
+  }
+  
+  .gradient-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
+    z-index: -1; /* Place the gradient behind the text */
+  }
+  
