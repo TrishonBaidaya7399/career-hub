@@ -21,7 +21,7 @@ const JobDetails = () => {
     return (
         <div>
             <div className="flex justify-center job-details-title pt-[80px] pb-[80px] bottom-0 bg-[#eef0fa] bottom-0 bg-[url('/src/assets/images/bg1.png')] bg-no-repeat">
-                <h1 className="text-2xl font-extrabold text-center">Job Details</h1>
+                <h1 className="text-4xl font-extrabold text-center">Job Details</h1>
             </div>
             <ToastContainer/>
             <div className="flex px-[200px] py-[100px] gap-6">

@@ -13,7 +13,7 @@ const Header = () => {
       </label>
       <ul tabIndex={0} className="dropdown-content mt-3 z-[1] p-4 shadow bg-white rounded-box w-[150px]">
        
-        <li><NavLink to="/statistics" className="text-[#757575] text-[16px] hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#7E90FE] to-[#9873FF] duration-300 font-bold">Statistics</NavLink></li>
+        <li><NavLink to="/statistics" className="text-[#757575] text-[16px] hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#7E90FE] to-[#9873FF] duration-300 font-bold ">Statistics</NavLink></li>
         <li><NavLink to="/applied" className="text-[#757575] text-[16px] hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#7E90FE] to-[#9873FF] duration-300 font-bold">Applied Jobs</NavLink></li>
         <li><NavLink to="/blog" className="text-[#757575] text-[16px] hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#7E90FE] to-[#9873FF] duration-300 font-bold">Blog</NavLink></li>
       </ul>
