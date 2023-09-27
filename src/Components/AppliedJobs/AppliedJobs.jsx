@@ -6,6 +6,7 @@ import { getStoredJobApplication } from "../../Utility/localstorage";
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { HiOutlineCurrencyDollar } from 'react-icons/hi';
 import { AiOutlineDown } from 'react-icons/ai';
+import { Helmet } from "react-helmet-async";
 const AppliedJobs = () => {
     const jobs =useLoaderData();
     const [appliedJobs, setAppliedJobs]=useState([])
@@ -34,6 +35,9 @@ const AppliedJobs = () => {
     
     return (
         <div>
+             <Helmet>
+                <title>Career Hub | Applied Jobs</title>
+            </Helmet>
         <div className="flex justify-center job-details-title pt-[80px] pb-[80px] bottom-0 bg-[#eef0fa] bottom-0 bg-[url('/src/assets/images/bg1.png')] bg-no-repeat">
             <h1 className="text-4xl font-extrabold text-center">Applied Jobs: {appliedJobs.length}</h1>
         </div>
