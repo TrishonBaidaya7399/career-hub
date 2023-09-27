@@ -8,7 +8,7 @@ const Job = ({job}) => {
 <div className="card text-black text-primary-content border-2 border-gray-200 rounded-lg p-6">
   <div className="card-body gap-0">
     <img src={logo} alt="" className="jobs-log w-[120px] pb-6" />
-    <h2 className="card-title text-[24px] pb-2">{job_title}</h2>
+    <h2 className="card-title text-[24px] text-gray-600 font-bold pb-2">{job_title}</h2>
     <p className='text-[20px] text-gray-500 pb-4'>{company_name}</p>
     <div className="flex gap-4 pb-4">
         <div className="py-2 px-4 text-xl text-[#9873FF] border-2 border-[#9873FF] rounded-lg">{remote_or_onsite}</div>
